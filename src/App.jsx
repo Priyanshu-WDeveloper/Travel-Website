@@ -1,6 +1,6 @@
 import "./App.css";
-import NavBar from "./Layout/Navbar";
-import Hero from "./pages/Hero";
+import NavBar from "./Layout/Navbar.jsx";
+// import Hero from "./pages/Hero";
 import Home from "./pages/Home";
 
 function App() {
