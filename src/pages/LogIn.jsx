@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaGithub, FaGoogle } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../app/AuthContext";
 
-function Login() {
+const Login = () => {
   const { login } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -82,6 +82,6 @@ function Login() {
       </div>
     </div>
   );
-}
+};
 
 export default Login;
