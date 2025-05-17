@@ -18,7 +18,7 @@ function PrivateRoute() {
   const { currentUser } = useAuth();
   return currentUser ? <Outlet /> : <Navigate to="/login" replace />;
 }
-function Routing() {
+const Routing = () => {
   return (
     <>
       <BrowserRouter>
@@ -34,7 +34,7 @@ function Routing() {
       </BrowserRouter>
     </>
   );
-}
+};
 const AuthGate = () => {
   const { currentUser } = useAuth();
   return <Navigate to={currentUser ? "/login" : "/auth"} replace />;
