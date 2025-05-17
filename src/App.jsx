@@ -1,5 +1,5 @@
-import { NavBar } from "./Layout/NavBar";
 import "./App.css";
+import NavBar from "./Layout/NavBar";
 import Hero from "./pages/Hero";
 import Home from "./pages/Home";
 

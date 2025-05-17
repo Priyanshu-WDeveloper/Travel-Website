@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { TiDelete } from "react-icons/ti";
-export const NavBar = () => {
+const NavBar = () => {
   const [navbarClass, setNavbarClass] = useState("list");
 
   const handleToggle = () => {
@@ -57,3 +57,5 @@ export const NavBar = () => {
     </div>
   );
 };
+
+export default NavBar;
