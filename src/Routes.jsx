@@ -9,10 +9,10 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import SignUp from "/src/pages/SignUp";
-import { useAuth } from "/src/app/AuthContext";
-import App from "/src/App";
-import Login from "/src/pages/Login";
+import SignUp from "./pages/SignUp";
+import { useAuth } from "./app/AuthContext";
+import App from "./App";
+import Login from "./pages/Login";
 
 function PrivateRoute() {
   const { currentUser } = useAuth();
