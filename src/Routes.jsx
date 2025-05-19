@@ -12,7 +12,7 @@ import {
 import SignUp from "./pages/SignUp";
 import { useAuth } from "./app/AuthContext";
 import App from "./App";
-import Login from "./pages/Login.jsx";
+import Login from "@/pages/Login";
 
 function PrivateRoute() {
   const { currentUser } = useAuth();
