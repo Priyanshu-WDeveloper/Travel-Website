@@ -1,5 +1,7 @@
-import React, { useState } from "react";
-import "/styles/login.scss";
+import { useState } from "react";
+// import "/styles/login.scss";
+import "../../styles/login.scss"; // Changed from "/styles/login.scss"
+
 import { FaFacebookF, FaTwitter, FaGithub, FaGoogle } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../app/AuthContext";
